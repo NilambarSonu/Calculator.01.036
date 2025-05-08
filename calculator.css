@@ -1,0 +1,75 @@
+.button{
+  background-color:black;
+  color:white;
+  height: 80px;
+  width: 80px;
+  font-size: 30px;
+  border: none;
+  font-weight: bold;
+  border-radius: 25px;
+  margin-top: 0px;
+  margin-right: 4px;
+  cursor: pointer;
+}
+.button:hover{
+  background-color: rgb(35, 31, 27);
+}
+.button_1{
+  background-color: rgb(255, 136, 0);
+  color:white;
+  height: 80px;
+  width: 80px;
+  font-size: 30px;
+  border: none;
+  font-weight: bold;
+  border-radius: 25px;
+  margin-top: 0px;
+  margin-right: 4px;
+  cursor: pointer;
+}
+.button_1:hover{
+  background-color: rgb(230, 116, 2);
+}
+.button_2{
+  background-color:rgb(184, 219, 29);
+  color:white;
+  height: 80px;
+  width: 83px;
+  padding-right: 0px;
+  font-size: 30px;
+  border: none;
+  font-weight: bold;
+  border-radius: 25px;
+  margin-top: 0px;
+  margin-right: 3px;
+  cursor: pointer;
+}
+.button_2:hover{
+  background-color: rgb(148, 254, 27);
+}
+.display {
+  width: 328px;
+  height:100px; 
+  border-radius: 20px;
+  padding-right: 20px;
+  font-weight: 400;
+  font-style: bold ;
+
+  font-size: 25px;
+  border: 1px solid #000000;
+  margin-bottom: 10px;
+  background-color: black;
+  color:white;
+  text-align: right;
+}
+.background001{
+  background-color: rgb(16, 255, 255);
+  width: 350px;
+  border-radius: 20px;
+  
+}
+.author{
+  color:rgb(100, 223, 6);
+  padding-left: 240px;
+  font-style: italic;
+}
