@@ -1,14 +1,15 @@
 .button{
   background-color:black;
   color:white;
-  height: 80px;
-  width: 80px;
-  font-size: 30px;
+  height: 205px;
+  width: 205px;
+  font-size: 68px;
   border: none;
   font-weight: bold;
-  border-radius: 25px;
-  margin-top: 0px;
-  margin-right: 4px;
+  border-radius: 55px;
+  margin-top: 10px;
+  margin-right: 16px;
+  margin-left: 16px;
   cursor: pointer;
 }
 .button:hover{
@@ -17,14 +18,15 @@
 .button_1{
   background-color: rgb(255, 136, 0);
   color:white;
-  height: 80px;
-  width: 80px;
-  font-size: 30px;
+  height: 205px;
+  width: 205px;
+  font-size: 68px;
   border: none;
   font-weight: bold;
-  border-radius: 25px;
-  margin-top: 0px;
-  margin-right: 4px;
+  border-radius: 55px;
+  margin-top: 10px;
+  margin-left: 18px;
+  margin-right: 16px;
   cursor: pointer;
 }
 .button_1:hover{
@@ -33,43 +35,50 @@
 .button_2{
   background-color:rgb(184, 219, 29);
   color:white;
-  height: 80px;
-  width: 83px;
+  height: 205px;
+  width: 205px;
   padding-right: 0px;
-  font-size: 30px;
+  font-size: 68px;
   border: none;
   font-weight: bold;
-  border-radius: 25px;
-  margin-top: 0px;
-  margin-right: 3px;
+  border-radius: 55px;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 16px;
   cursor: pointer;
 }
 .button_2:hover{
   background-color: rgb(148, 254, 27);
 }
 .display {
-  width: 328px;
-  height:100px; 
+  width: 98%;
+  height:450px; 
   border-radius: 20px;
   padding-right: 20px;
   font-weight: 400;
   font-style: bold ;
+ 
 
-  font-size: 25px;
+  font-size: 72px;
   border: 1px solid #000000;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   background-color: black;
   color:white;
   text-align: right;
+  text-align: bottom;
 }
 .background001{
-  background-color: rgb(16, 255, 255);
-  width: 350px;
+  background-color: rgb(30, 255, 221);
+  width: 100%;
   border-radius: 20px;
+  height: 90vh;
   
 }
 .author{
-  color:rgb(100, 223, 6);
-  padding-left: 240px;
+  color:rgb(3, 40, 255);
+  padding-left: 680px;
+  font-size: 30px;
+  padding-top: 20px;
+  
   font-style: italic;
 }
