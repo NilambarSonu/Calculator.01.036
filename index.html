@@ -11,7 +11,7 @@
     <div class="background001">
     <div class="display" id="display"></div>
     <p>
-      <button class="button_2" onclick="calculation = ''; document.getElementById('display').innerText = calculation; console.log(calculation); ">Clear</button>
+      <button class="button_2" onclick="calculation = ''; document.getElementById('display').innerText = calculation; console.log(calculation); localStorage.removeItem('calculation');">Clear</button>
       <button class="button_1" onclick="addToCalculation('%')">%</button>
       <button class="button_1" onclick="addToCalculation('/')">/</button>
       <button class="button_1" onclick="addToCalculation('*')">*</button>
@@ -33,14 +33,14 @@
       <button class="button" onclick="addToCalculation('3')">3</button>
       <button class="button" onclick="addToCalculation('2')">2</button>
       <button class="button" onclick="addToCalculation('1')">1</button>
-      <button class="button_1" onclick="calculation = eval(calculation); document.getElementById('display').innerText = calculation;console.log(calculation);">=</button>
+      <button class="button_1" onclick="calculation = eval(calculation); document.getElementById('display').innerText = calculation;console.log(calculation); localStorage.setItem('calculation',calculation); ">=</button>
       
     </p>
     <p>
       <button class="button" onclick="addToCalculation('00')">00</button>
       <button class="button" onclick="addToCalculation('0')">0</button>
       <button class="button" onclick="addToCalculation('.')">.</button>
-      <button class="button_1" onclick="calculation = calculation.toString().slice(0,-1); document.getElementById('display').innerText = calculation; console.log(calculation); ">&lt;--</button>
+      <button class="button_1" onclick="calculation = calculation.toString().slice(0,-1);  document.getElementById('display').innerText = calculation; console.log(calculation); localStorage.removeItem('calculation'); ">&lt;--</button>
     </p>
 
     <p class='author'>
@@ -51,13 +51,15 @@
   
     
     <script>
-      let calculation = '';
-      
-      
+      let calculation = localStorage.getItem('calculation') || '';
+      document.getElementById('display').innerText = calculation;
       function addToCalculation(number) {
       calculation += number;
+      localStorage.setItem('calculation', calculation);
       console.log(calculation);
       document.getElementById('display').innerText = calculation;
+      
+      
       }
       
 
