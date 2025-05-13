@@ -1,84 +1,80 @@
-.button{
-  background-color:black;
-  color:white;
+
+.background001 {
+  background-color: rgb(30, 255, 221);
+  width: 100%;
+  max-width: 900px;  
+  margin: auto;
+  border-radius: 20px;
+  height: auto;       
+  padding: 18px;
+}      
+
+p {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+
+.button,
+.button_1,
+.button_2 {
+  flex: 1 1 22%;  
+  max-width: 205px;
   height: 205px;
-  width: 205px;
   font-size: 68px;
   border: none;
   font-weight: bold;
   border-radius: 55px;
-  margin-top: 10px;
-  margin-right: 16px;
-  margin-left: 16px;
+  margin: 10px;
   cursor: pointer;
 }
-.button:hover{
+
+.button {
+  background-color: black;
+  color: white;
+}
+.button:hover {
   background-color: rgb(35, 31, 27);
 }
-.button_1{
+
+.button_1 {
   background-color: rgb(255, 136, 0);
-  color:white;
-  height: 205px;
-  width: 205px;
-  font-size: 68px;
-  border: none;
-  font-weight: bold;
-  border-radius: 55px;
-  margin-top: 10px;
-  margin-left: 18px;
-  margin-right: 16px;
-  cursor: pointer;
+  color: white;
 }
-.button_1:hover{
+.button_1:hover {
   background-color: rgb(230, 116, 2);
 }
-.button_2{
-  background-color:rgb(184, 219, 29);
-  color:white;
-  height: 205px;
-  width: 205px;
-  padding-right: 0px;
-  font-size: 68px;
-  border: none;
-  font-weight: bold;
-  border-radius: 55px;
-  margin-top: 10px;
-  margin-right: 10px;
-  margin-left: 16px;
-  cursor: pointer;
-}
-.button_2:hover{
-  background-color: rgb(148, 254, 27);
-}
-.display {
-  width: 98%;
-  height:450px; 
-  border-radius: 20px;
-  padding-right: 20px;
-  font-weight: 400;
-  font-style: bold ;
- 
 
+.button_2 {
+  background-color: rgb(14, 164, 239);
+  color: white;
+}
+.button_2:hover {
+  background-color: rgb(92, 112, 216);
+}
+
+.display {
+  width: 95%;
+  height: 200px;     
+  border-radius: 20px;
+  padding: 20px;
   font-size: 72px;
   border: 1px solid #000000;
   margin-bottom: 20px;
   background-color: black;
-  color:white;
+  color: white;
   text-align: right;
-  text-align: bottom;
+  word-wrap: break-word;
 }
-.background001{
-  background-color: rgb(30, 255, 221);
-  width: 100%;
-  border-radius: 20px;
-  height: 90vh;
-  
-}
-.author{
-  color:rgb(3, 40, 255);
-  padding-left: 680px;
+
+
+.author {
+  color: rgb(3, 40, 255);
+  text-align: center; 
   font-size: 30px;
   padding-top: 20px;
-  
   font-style: italic;
 }
